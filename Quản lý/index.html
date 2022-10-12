@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./mannage/reset.css">
+    <link rel="stylesheet" href="./mannage/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Coffee</title>
+</head>
+
+<body>
+    <div id="main">
+        <div id="title-mangane">
+
+            <div id="header">
+                <div class="header_nav">
+                    <div class="header-bar-wrap " style="z-index: 1;">
+                        <p class="header-bar-message" style="color:#637381 "><span >Có thao tác chỉnh sửa chưa lưu</span></p>
+                        <div class="d-flex">
+                                <button class="ui-button btn-destroy" type="button">Xóa</button>
+                                <button class="ui-button btn-default" type="button">Hủy</button>
+                                <div><button class="ui-button ui-button--primary" type="button">Lưu</button>
+                                </div>
+                        </div>
+                    </div>   
+                </div>
+                <div class="nav_bar">
+                    <div class="ui-title-bar" style="padding-bottom: 10px; border-bottom: 1px solid rgb(223, 228, 232);">
+                        <div class="ui-title-bar__navigation" style="display: flex; justify-content: space-between;">
+                            <div class="ui-breadcrumbs " style="margin-top: 15px;">
+                                <a class="ui-button  ui-breadcrumb" href="#">
+                                    <i class="fa-solid fa-chevron-left"></i>
+                                    <span class="ui-breadcrumb__item">Quay lại danh sách vai trò</span></a>
+                            </div>
+                        </div>
+                        <div class="ui-title-bar__main-group">
+                            <div class="ui-title-bar__heading-group">
+                                <h1 class="ui-title-bar__title" >Quản lý</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="content">
+                <div class="ui-layout__section ui-title-bar-container ui-title-bar-container_top_new">
+                    <div class="ui-layout__item ui-title-bar--separator setting-wrap ui-annotated-section_bottom_new" style="border-bottom: none;">
+                        <div class="ui-annotated-section__annotation">
+                            <div class="ui-annotated-section__title">
+                                <h2 class="ui-heading">Vai trò nhân viên</h2>
+                            </div>
+                            <div class="ui-annotated-section__description">
+                                <p>Quyền hạn vai trò của nhân viên khi đăng nhập quản trị web hoặc ứng dụng bán hàng</p>
+                            </div>
+                        </div>
+                        <div class="ui-annotated-section__content div_wapper_role">
+                            <div class="ui-card">
+                                <div class="ui-card__section">
+                                    <div class="ui-form__section">
+                                        <div class="next-input-wrapper">
+                                            <label class="next-label" for="Name">Tên vai trò</label>
+                                            <input placeholder="Nhập tên vai trò" size="30" class="next-input" name="name" maxlength="255" value="Quản lý">
+                                        </div>
+                                        <div class="next-input-wrapper">
+                                            <div style="background: rgb(244, 246, 248); padding: 10px; border-radius: 3px;">Quản lý nhà hàng </div>
+                                        </div>
+                                        <div class="ui-form__group">
+                                            <div class="next-input-wrapper">
+                                                <div class="div_wapper_checkbox_next div_wapper_checkbox_margin cursor">
+                                                    <input class="next-checkbox" type="checkbox" name="permissions" readonly="" value="dashboard">
+                                                    <span class="next-checkbox--styled">
+                                                        
+                                                    </span>
+                                                    <span class="text-checkbox">Tổng quan</span>
+                                                </div>
+                                                <div class="div_wapper_checkbox_next div_wapper_checkbox_margin cursor"><input class="next-checkbox" type="checkbox" name="permissions" readonly="" value="dashboard">
+                                                    <span class="next-checkbox--styled">
+                                                        
+                                                            
+                                    
+                                                    </span>
+                                                    <span class="text-checkbox">Báo cáo</span>
+                                                </div>
+                                                <div class="div_wapper_checkbox_next div_wapper_checkbox_margin cursor"><input class="next-checkbox" type="checkbox" name="permissions" readonly="" value="dashboard">
+                                                    <span class="next-checkbox--styled">
+                                                        
+                                                            
+                                    
+                                                    </span>
+                                                    <span class="text-checkbox">Khuyến mại</span>
+                                                </div>
+                                                <div class="div_wapper_checkbox_next div_wapper_checkbox_margin cursor">
+                                                    <input class="next-checkbox" type="checkbox" name="permissions" readonly="" value="dashboard">
+                                                    <span class="next-checkbox--styled">
+                                                        
+                                                            
+                                    
+                                                    </span>
+                                                    <span class="text-checkbox">Tồn kho</span>
+                                                </div>
+                                                <div class="div_wapper_checkbox_next div_wapper_checkbox_margin cursor">
+                                                    <input class="next-checkbox" type="checkbox" name="permissions" readonly="" value="dashboard">
+                                                    <span class="next-checkbox--styled">
+                                                        
+                                                            
+                                    
+                                                    </span>
+                                                    <span class="text-checkbox">Thiết lập nhà hàng</span>
+                                                    <p>Thông tin nhà hàng; Cài đặt báo cáo; Quản lý bàn; Máy in; Phương thức thanh toán; Quản lý bar / bếp</p>
+                                                </div>
+                                            </div>
+                                            <div class="next-input-wrapper">
+                                                <div class="div_wapper_checkbox_next div_wapper_checkbox_margin cursor">
+                                                    <input class="next-checkbox" type="checkbox" name="permissions" readonly="" value="dashboard">
+                                                    <span class="next-checkbox--styled">
+                                                        
+                                                                                                    
+                                    
+                                                    </span>
+                                                    <span class="text-checkbox">Hóa đơn</span>
+                                                </div>
+                                            <div class="div_wapper_checkbox_next div_wapper_checkbox_margin cursor">
+                                                <input class="next-checkbox" type="checkbox" name="permissions" readonly="" value="dashboard">
+                                                <span class="next-checkbox--styled">
+                                                    
+                                                        
+                                
+                                                </span>
+                                                <span class="text-checkbox">Nhân viên</span>
+                                            </div>
+                                            <div class="div_wapper_checkbox_next div_wapper_checkbox_margin cursor">
+                                                <input class="next-checkbox" type="checkbox" name="permissions" readonly="" value="dashboard">
+                                                <span class="next-checkbox--styled">
+                                                    
+                                                        
+                                
+                                                </span>
+                                                <span class="text-checkbox">Khách hàng</span>
+                                            </div>
+                                            <div class="div_wapper_checkbox_next div_wapper_checkbox_margin cursor">
+                                                <input class="next-checkbox" type="checkbox" name="permissions" readonly="" value="dashboard">
+                                                <span class="next-checkbox--styled">
+                                                    
+                                                        
+                                
+                                                </span>
+                                                <span class="text-checkbox">Mặt hàng</span>
+                                                <p>Quản lý mặt hàng; Danh mục ; Thực đơn; Đơn vị</p>
+                                            </div>
+                                            <div class="div_wapper_checkbox_next div_wapper_checkbox_margin cursor">
+                                                <input class="next-checkbox" type="checkbox" name="permissions" readonly="" value="dashboard">
+                                                <span class="next-checkbox--styled">
+                                                    
+                                                        
+                                
+                                                </span>
+                                                <span class="text-checkbox">Thu chi</span>
+                                                <p>Thao tác thu chi; Trả nợ/ Thu nợ đối tác</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="next-input-wrapper">
+                                        <div style="background: rgb(244, 246, 248); padding: 10px; border-radius: 3px;">Nhân viên bán hàng 
+                                        </div>
+                                    </div>
+                                    <div class="ui-form__group">
+                                        <div class="next-input-wrapper">
+                                            <div class="div_wapper_checkbox_next div_wapper_checkbox_margin cursor">
+                                                <input class="next-checkbox" type="checkbox" name="permissions" disabled="" readonly="" value="dashboard" checked="">
+                                                <span class="next-checkbox--styled">
+                                                    
+                                                        
+                                
+                                                </span>
+                                                <span class="text-checkbox">Tính năng bán hàng</span>
+                                            </div>
+                                            <div class="div_wapper_checkbox_next div_wapper_checkbox_margin cursor">
+                                                <input class="next-checkbox" type="checkbox" name="permissions" readonly="" value="dashboard">
+                                                <span class="next-checkbox--styled">
+                                                    
+                                                                                            
+                                
+                                                </span>
+                                                <span class="text-checkbox">Thuế &amp; Phí</span>
+                                            </div>
+                                            <div class="div_wapper_checkbox_next div_wapper_checkbox_margin cursor">
+                                                <input class="next-checkbox" type="checkbox" name="permissions" readonly="" value="dashboard">
+                                                <span class="next-checkbox--styled">
+                                                    
+                                                        
+                                
+                                                </span>
+                                                <span class="text-checkbox">Chiết khấu</span>
+                                            </div>
+                                        </div>
+                                        <div class="next-input-wrapper">
+                                            <div class="div_wapper_checkbox_next div_wapper_checkbox_margin cursor">
+                                                <input class="next-checkbox" type="checkbox" name="permissions" readonly="" value="dashboard">
+                                                <span class="next-checkbox--styled">
+                                                    
+                                                        
+                                
+                                                </span>
+                                                <span class="text-checkbox">Hoàn, huỷ đơn đã thanh toán</span>
+                                            </div>
+                                            <div class="div_wapper_checkbox_next div_wapper_checkbox_margin cursor">
+                                                <input class="next-checkbox" type="checkbox" name="permissions" readonly="" value="dashboard">
+                                                <span class="next-checkbox--styled">
+                                                    
+                                                        
+                                
+                                                </span>
+                                                <span class="text-checkbox">Huỷ món sau lưu &amp; đơn chưa thanh toán</span>
+                                            </div>
+                                            <div class="div_wapper_checkbox_next div_wapper_checkbox_margin cursor">
+                                                <input class="next-checkbox" type="checkbox" name="permissions" readonly="" value="dashboard">
+                                                <span class="next-checkbox--styled">
+                                                    
+                                                                                            
+                                
+                                                </span>
+                                                <span class="text-checkbox">Thanh toán</span>
+                                                <p>Thanh toán; Đặt bàn</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            </div>
+        </div>
+    </div>
+</body>

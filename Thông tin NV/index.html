@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./manage/reset.css">
+    <link rel="stylesheet" href="./manage/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Coffee</title>
+</head>
+
+<body>
+    <div id="main">
+        <div id="title-mangane">
+
+            <div id="header">
+                <div class="header_nav">
+                    <div class="header-bar-wrap " style="z-index: 1;">
+                        <p class="header-bar-message" style="color:#637381 "><span >Có thao tác chỉnh sửa chưa lưu</span></p>
+                        <div class="d-flex">
+                                <button class="ui-button btn-destroy" type="button">Xóa</button>
+                                <button class="ui-button btn-default" type="button">Hủy</button>
+                                <div><button class="ui-button ui-button--primary" type="button">Lưu</button>
+                                </div>
+                        </div>
+                    </div>   
+                </div>
+                <div class="nav_bar">
+                    <div class="ui-title-bar" style="padding-bottom: 10px; border-bottom: 1px solid rgb(223, 228, 232);">
+                        <div class="ui-title-bar__navigation" style="display: flex; justify-content: space-between;">
+                            <div class="ui-breadcrumbs " style="margin-top: 15px;">
+                                <a class="ui-button  ui-breadcrumb" href="#">
+                                    <i class="fa-solid fa-chevron-left"></i>
+                                    <span class="ui-breadcrumb__item">Quay lại danh sách nhân viên</span></a>
+                            </div>
+                        </div>
+                        <div class="ui-title-bar__main-group">
+                            <div class="ui-title-bar__heading-group">
+                                <h1 class="ui-title-bar__title" >Nguyễn Thành Hưng</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="content">
+                <div class="ui-layout__section ui-title-bar-container ui-title-bar-container_top_new">
+                    <div class="ui-layout__item ui-title-bar--separator setting-wrap ui-annotated-section_bottom_new" style="border-bottom: none;">
+                        <div class="ui-annotated-section__annotation">
+                            <div class="ui-annotated-section__title">
+                                <h2 class="ui-heading">Tài khoản nhân viên</h2>
+                            </div>
+                            <div class="ui-annotated-section__description">
+                                <p>Thông tin tài khoản, phân quyền của nhân viên</p>
+                            </div>
+                        </div>
+                    
+
+                        <div class="ui-annotated-section__content ">
+                            <div class="ui-card">
+                                <div class="ui-card__section">
+                                    <div class="ui-form__section">
+                                        <div class="ui-form__group">
+                                            <div class="next-input-wrapper">
+                                                <label class="next-label" autocomplete="name" for="name">Họ tên nhân viên<span class="note"> (*)</span>
+                                                </label>
+                                                <input autocomplete="name" placeholder="VD: Nguyễn Văn A" id="name" maxlength="50" type="text" class="next-input" name="name" value="Nguyễn Thành Hưng">
+                                            </div>
+                                            <div class="next-input-wrapper">
+                                                <label class="next-label" autocomplete="username1" for="username1">Tên đăng nhập <span class="note"> (*)</span>
+                                                </label>
+                                                
+                                                <input autocomplete="username1" placeholder="VD: phucvu01" maxlength="32" disabled="" type="text" size="30" class=" next-input" name="username" value="thanhhungnguyen"><div class="__react_component_tooltip place-top type-dark" id="tt" data-id="tooltip">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="ui-form__group"><div class="next-input-wrapper">
+                                                        <label class="next-label" autocomplete="mail" for="nami">Email</label>
+                                                        <input autocomplete="mail" placeholder="VD: nguyenvana@gmail.com " maxlength="128" type="text" class="next-input" name="email" value="hunghttt1@gmail.com">
+                                                    </div>
+                                                    <div class="next-input-wrapper">
+                                                        <label class="next-label" autocomplete="phone3" for="phone">Số điện thoại</label>
+                                                            <input autocomplete="phone3" placeholder="VD: 0912345678" maxlength="20" type="text" class="next-input" name="phone" value="99999999">
+                                                        </div>
+                                                    </div>
+                                    </div>
+                                </div>
+                                            <div class="ui-card__section"><div class="ui-type-container" style="margin-bottom: 10px;">
+                                                <div>ĐỔI MẬT KHẨU </div>
+                                                <div>Đổi mật khẩu mà bạn sử dụng để đăng nhập vào tài khoản <span class="text-bold">Nguyễn Thành Hưng</span>
+                                                </div>
+                                                <button class="ui-button" type="button" name="button">Đổi mật khẩu</button>
+                                            </div>
+                                        </div>
+                                        <div class="ui-card__section">
+                                            <div class="ui-form__section">
+                                                <div class="ui-form__group">
+                                                    <div class="next-input-wrapper">
+                                                                <label class="next-label text-bold" autocomplete="mail" for="mail">Mã PIN đăng nhập thiết bị bán hàng<span class="note"> (*)</span>
+                                                                </label>
+                                                            
+                                                        <div class="style_passcodeContainer">
+                                                            <div class="style_passcodeCell ">
+                                                                <input class="next-input  style_passcodeCellInput " type="number" placeholder="-"  value="9">
+                                                            </div>
+                                                            <div class="style_passcodeCell ">
+                                                                <input class="next-input  style_passcodeCellInput " type="number" placeholder="-"  value="9">
+                                                            </div>
+                                                            <div class="style_passcodeCell ">
+                                                                <input class="next-input  style_passcodeCellInput " type="number" placeholder="-"  value="9">
+                                                            </div>
+                                                            <div class="style_passcodeCell ">
+                                                                <input class="next-input  style_passcodeCellInput " type="number" placeholder="-"  value="9">
+                                                        </div>
+                                                        </div>
+                                                        <button type="button" class="btn--link style_passcodeGenText_3_sny" style="margin-top: 10px;">Tạo mã PIN ngẫu nhiên</button>
+                                                    </div>
+                                                    <div class="next-input-wrapper">
+                                                        <label class="next-label text-bold" for="Province">Vai trò</label>
+                                                        <div class="ui-select__wrapper next-input--has-content">
+                                                            <select  class="ui-select" name="Province" >
+                                                    
+                                                                    <option value="">-- Chọn vai trò --</option>
+
+                                                    
+                                                                <option value="">Quản lý</option>
+                                                                <option value="">Nhân viên</option>
+                                                                <option value="">Phục vụ</option>
+                                                            </select>
+                                                        
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

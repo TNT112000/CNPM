@@ -1,0 +1,142 @@
+@media (min-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 100%;
+    }
+}
+
+.nav-item {
+    display: flex;
+    margin: 0 10px 0 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header_item {
+    margin-left: 10px;
+}
+
+.header_avatar {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 30px;
+}
+
+.header_name {
+    margin-left: 10px;
+}
+
+.mb-4 {
+    margin-bottom: unset !important
+}
+
+.card {
+    width: 100% !important;
+}
+
+.card-title {
+    font-size: 30px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.card-subtitle {
+
+    margin-left: 70px;
+}
+
+.card-title1 {
+    margin-left: 70px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.card-subtitle1 {
+    margin-left: 70px;
+    width: 230px;
+}
+.card-body{
+    background-color: #f1f1f1;
+}
+.card1{
+    display: flex;
+}
+.padding_colum{
+    padding: 0;
+}
+.container{
+    background-color: #f1f1f1;
+}
+
+.background_w{
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 25px;
+}
+.container1{
+    padding: unset;
+    background-color: white;
+}
+.d-flex{
+    background-color: white;
+    margin-left: 10px;
+}
+.card-body1{
+    border: unset !important;
+}
+.nav{
+    margin-right: 30px;
+}
+.background_w{
+    border-radius: 10px;
+    padding: 20px;
+    padding-bottom: 35px;
+}
+.form-tnt{
+    width: 45px;
+    height: 45px;
+    margin: 0 5px 0 5px;
+    text-align: center;
+}
+.footer{
+    background-color: #f1f1f1;
+    border-top: 1px #f1f1f1;
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content:right;
+    align-items: center;
+}
+.submit{
+    background-color: blue;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    border-radius: 3px;
+    margin-right: 115px;
+    margin-bottom: 35px;
+}
+.nav-link{
+    font-size: 20px;
+    margin: 5px 0 5px 0;
+}
+.okok{
+    height: 670px;
+}
+.fa-solid{
+    margin-right: 10px;
+}
+.ddd{
+    width: 260px;
+}
+.ddd :hover{
+    background-color: blue;
+}
